@@ -18,7 +18,7 @@ def refresh(raw, prefix):
     full = f"{prefix}{raw}"
     llprint(full)
 
-def refreshpass(raw: str, prefix: str, disguiseas="x", capson=False):
+def refreshpass(raw: str, prefix: str, disguiseas="x", capson=True):
     resetLine()
     rawlen = len(raw)
     hide = disguiseas * rawlen
